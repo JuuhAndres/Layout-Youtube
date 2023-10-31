@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+header{
+    display: inline;
+    
+}
+nav{
+    width: 1300px;
+    height: 56px;
+    display: flex;
+    
+    
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap:300px;
+    
+}
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    margin: 10px;
+    
+}
+
+.main{
+    position: relative;
+}
+.main img{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 952px;
+    height: 700px;
+}
+.slidebar{
+    flex-flow: column wrap;
+    position: absolute;
+    left: 1010px;
+    top: 85px;
+}
+.slidebar .op1{
+    width: 160px;
+    height: 90px;
+    margin-bottom: 10px;
+}
